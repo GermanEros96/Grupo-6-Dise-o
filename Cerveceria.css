@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}   
+
+body{
+    background-image: url(img/fondo2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 100%;
+    margin:auto;
+    background-color: #333;
+    font-size: 20px;
+
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal li:hover{
+    background-color: #9b4848;
+    transition: 1s;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: #333;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    width: auto;
+    background-color: #9b4848;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.espacio{
+    height: 1000px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    
+}
