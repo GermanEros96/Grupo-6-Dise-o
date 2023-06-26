@@ -7,9 +7,20 @@
 }   
 
 body{
-    background-image: url(img/fondo2b.jpg);
+    background-image: url(img/Fondo.png);
     background-size:cover;
     background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
 }
 
 nav{
@@ -60,6 +71,76 @@ nav{
     text-decoration: none;
 }
 
+.menu-horizontal > div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-horizontal > div > a{
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    color:#c9c8c8;
+    letter-spacing: -2px;
+
+}
+
+.menu-horizontal > div > a > span{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-horizontal > div > a > span:hover{
+    color: #9b4848;
+}
+
+.birra{
+    margin-top:170px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.birra > img {
+    height: 270px;
+    width: 250px;
+}
+
+.Res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Res > a {
+    display: flex;
+    width: 50px;
+    font-family:'Barlow Condensed';
+    font-size: 30px;
+    background-color: #9b4848;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700px;
+    width: 220px;
+    height: 60px;
+    color: #ffffff;
+    padding: 10px 16px;
+    margin-bottom: 60px;
+    transition: 0.2s;
+
+}
+
+.Res > a:hover {
+    background-color: #333;
+    color: #9b4848;
+}
+
+
 
 .espacio2{
     height: 500px;
@@ -72,11 +153,6 @@ nav{
     align-items: center;
     height: 300px;
 }
-
-h1{
-
-}
-
 
 
 .slider{
