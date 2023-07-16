@@ -573,6 +573,7 @@ footer{
   h2 {
     color: aliceblue;
     min-width: 250px;
+    font-size: 24px;
   }
   h4{
     color: aliceblue;
@@ -581,9 +582,14 @@ footer{
   p{
     color: aliceblue;
     min-width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
   }
   span{
     color: aliceblue;
     min-width: 250px;
   }
- 
+h1 {
+    color: aliceblue;
+    font-size: 24px;
+}
