@@ -25,18 +25,13 @@
                 <ul class="menu-vertical">
                     <li><a href="Burguers.html">Burguers</a></li>
                     <li><a href="papas.html">Papas</a></li>
-                    <li><a href="tipsyco.html">Tips y Co</a></li>
                     <li><a href="Bebidas.html">Bebidas</a></li>
                     <li><a href="Postres.html">Postres</a></li>
                 </ul>
             </li>
             <li>
                 <a href="">Locales</a>
-                <ul class="menu-vertical">
-                    <li><a href="Caballito.html">Caballito</a></li>
-                    <li><a href="Microcentro.html">Microcentro</a></li>
-                    <li><a href="Puerto.html">Puerto Madero</a></li>
-                </ul>
+                <ul class="menu-vertical"></ul>
             </li>
             <li><a href="Nosotros.html">Nosotros</a></li>
         </ul>
@@ -88,7 +83,7 @@
 	<div class="contenido-card">
 		<h3>Local Microcentro</h3>
 		<p>Donde Decidimos Empezar a traer el La Buena Compañia y La buena Birra. Visita Nuestro Primer local  </p>
-		<a href="Microcentro.html">Como Llegar?</a>
+		<a href="https://goo.gl/maps/eReooNSh2VMUibJK6">Como Llegar?</a>
 	</div>
 </div>
 <div class="card">
@@ -98,7 +93,7 @@
 	<div class="contenido-card">
 		<h3>Local Puerto Madero</h3>
 		<p>El lugar Ideal Para Disfrutar de Una buena Cerveza y Topics. </p>
-		<a href="Puerto.html">Como Llegar?</a>
+		<a href="https://goo.gl/maps/M6rgHHpHXWp3oa6J7">Como Llegar?</a>
 	</div>
 </div>
 <div class="card">
@@ -108,18 +103,26 @@
 	<div class="contenido-card">
 		<h3>Local Caballito</h3>
 		<p>Nuestra Ultima Ignaguracion. Bien en el centro de Caballito. ¡Conocelo!</p>
-		<a href="Caballito.html">Como Llegar?</a>
+		<a href="https://goo.gl/maps/hA22QFYahx668Pay8">Como Llegar?</a>
 	</div>
 </div>
 </div>
     
+<script>
+    document.querySelector('a[href="#locales"]').addEventListener('click', function (event) {
+        event.preventDefault();
+        var localesSection = document.getElementById('locales');
+        localesSection.scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+
     
     <footer class="Pie-de-pagina">
     <div class="pie-izquierdo">
     <h3>GRUPO 6 <span>Desarrolladores</span></h3>
     
       <p class="pie-links">
-        <a href="Cerveceria.html">Inicio</a>
+        <a href="index.html">Inicio</a>
         <a href="Contacto.html">Contactanos</a>
         <a href="Nosotros.html">Nosotros</a>
       </p>
@@ -130,7 +133,7 @@
     <div class="pie-centro">
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span> Local Central: Paraguay 1239</a></span></p>
+            <p><a href="https://goo.gl/maps/rAbKeA4Ct8E84eMb7" target="_blank">Local Central: Paraguay 1239</a></p>
         </div>
         <div>
             <i class="fa fa-phone"></i>
