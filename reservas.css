@@ -180,7 +180,6 @@ form input[type = submit]:hover{
 /** Pie de Pagina **/
 
 footer{
-    position: fixed;
     bottom: 0;
     
 }
